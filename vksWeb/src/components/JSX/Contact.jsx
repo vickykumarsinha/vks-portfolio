@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import './Contact.css'
-import './MainPage.css'
+import '../CSS/Contact.css'
+import '../CSS/MainPage.css'
 import emailjs from '@emailjs/browser'
-import linked from '../assets/linkedin-icon.svg'
-import insta from '../assets/insta.svg'
-import git from '../assets/github.svg'
-import figma from '../assets/figma.svg'
+import linked from '../../assets/linkedin-icon.svg'
+import insta from '../../assets/insta.svg'
+import git from '../../assets/github.svg'
+import figma from '../../assets/figma.svg'
 
 
 const Contact = () => {

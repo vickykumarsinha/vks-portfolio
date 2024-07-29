@@ -54,7 +54,9 @@
     width: 70%;
     border-radius: 55%;
     border: solid;
-    border-color: white;
+    border-width: 0.8vw;
+    border-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(50px)
 }
 .social-sec{
     display: flex;

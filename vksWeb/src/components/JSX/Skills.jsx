@@ -1,12 +1,12 @@
 import React from 'react'
-import './Skills.css'
+import '../CSS/Skills.css'
 import { useRef } from 'react'
-import reactjs from '../assets/react.svg'
-import java from '../assets/java.png'
-import js from '../assets/javascript.svg'
-import node from '../assets/nodejs.svg'
-import mongo from '../assets/mongodb.svg'
-import sql from '../assets/mysql.svg'
+import reactjs from '../../assets/react.svg'
+import java from '../../assets/java.png'
+import js from '../../assets/javascript.svg'
+import node from '../../assets/nodejs.svg'
+import mongo from '../../assets/mongodb.svg'
+import sql from '../../assets/mysql.svg'
 
 const Skills = () => {
 

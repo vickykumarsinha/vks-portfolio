@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import './EC.css'
-import './Skills.css'
+import '../CSS/EC.css'
+import '../CSS/Skills.css'
 
 const EC = () => {
 

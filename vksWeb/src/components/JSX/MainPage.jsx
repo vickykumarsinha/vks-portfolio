@@ -1,11 +1,10 @@
 import React from 'react'
-import './MainPage.css'
-import vks from '../assets/vks.png'
-import x from '../assets/x.png'
-import linked from '../assets/linkedin-icon.svg'
-import insta from '../assets/insta.svg'
-import git from '../assets/github.svg'
-import figma from '../assets/figma.svg'
+import '../CSS/MainPage.css'
+import vks from '../../assets/vks.png'
+import linked from '../../assets/linkedin-icon.svg'
+import insta from '../../assets/insta.svg'
+import git from '../../assets/github.svg'
+import figma from '../../assets/figma.svg'
 
 const MainPage = () => {
 
