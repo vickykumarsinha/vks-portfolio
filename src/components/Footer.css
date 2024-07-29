@@ -1,0 +1,17 @@
+.foot-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1%;
+    
+}
+
+.foot-sec > p{
+    font-size: 1.3vw;
+}
+
+.foot-sec > a{
+    color: white;
+    margin-left: 0.5%;
+    font-size: 1.3vw;
+}

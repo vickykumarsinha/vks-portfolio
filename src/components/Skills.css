@@ -1,0 +1,116 @@
+.skill{
+    padding-top: 6%;
+}
+
+.skill-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    line-height: 4vw;
+    width: 15%;
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 0.10% 0.25%;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(10px); 
+    border-radius: 50px;
+}
+
+.skill-div{
+    padding: 1% 2% 0%;
+    display: flex;
+}
+
+.svg-border{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    margin: 2%;
+    padding: 2% 0%;
+    border-radius: 25px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border: solid;
+    border-width: 1%;
+    border-color: rgba(255, 255, 255, 0.3); 
+}
+.svg-border:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    margin: 2%;
+    padding: 2% 0%;
+    border-radius: 25px;
+    font-size: 1.5vw;
+
+    .java{
+        transition: transform 0.3s ease-in;
+        transform: scale(1.1);
+    }
+    .js{
+        transition: transform 0.3s ease-in;
+        transform: scale(1.1);
+    }
+    .node{
+        transition: transform 0.3s ease-in;
+        transform: scale(1.1);
+    }
+    .mongo{
+        transition: transform 0.3s ease-in;
+        transform: scale(1.1);
+    }
+    .react{
+        transition: transform 0.3s ease-in;
+        transform: scale(1.1);
+    }
+    .sql{
+        transition: transform 0.3s ease-in;
+        transform: scale(1.1);
+    }
+}
+
+.svg-border > p{
+    font-size: 1.5vw;
+    background-color: transparent;
+}
+
+.react{
+    width: 68%;
+    background-color: transparent;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease-out;
+}
+.java{
+    width: 55%;
+    background-color: transparent;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease-out;
+}
+.js{
+    width: 53%;
+    background-color: transparent;
+    margin-bottom: 5%;   
+    transition: transform 0.3s ease-out;
+
+}
+.node{
+    width: 55%;
+    background-color: transparent;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease-out;
+
+}
+.mongo{
+    width: 65%;
+    background-color: transparent;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease-out;
+}
+.sql{
+    width: 70%;
+    background-color: transparent;
+    margin-bottom: 5%;
+    transition: transform 0.3s ease-out;
+}

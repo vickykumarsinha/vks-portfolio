@@ -1,0 +1,104 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-color:rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.left{
+    flex: 1;
+    flex-direction: row;
+    padding: 0% 1%;
+    margin: 0% 8% 0% 2%; 
+
+    .head{
+        font-size: 1.5vw;
+        font-weight: 600;
+        margin-bottom: 0%;
+    }
+    .content{
+        font-size: 0.9vw;
+    }
+}
+.right{
+    flex: 1;
+}
+
+.right > form{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: 3%;
+}
+
+.email-form input[type="email"],
+.email-form input[type="text"]{
+  width: 80%;
+  padding: 1%;
+  border: solid;
+  border-color:rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 1vw;
+  color: white;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+  
+}
+.email-form input[type="email"]:focus{
+    border: solid;
+    border-color:rgba(255, 255, 255, 0.8);
+}
+
+.email-form input[type="text"]:focus {
+  border: solid;
+  border-color:rgba(255, 255, 255, 0.8);
+}
+
+
+#message {
+  width: 80%;
+  padding: 1%;
+  max-width: 80%;
+  height: 10%;
+  max-height: 10%;
+  border: solid;
+  border-color:rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 1vw;
+  color: white;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+#message:active {
+    border: solid;
+    border-color:rgba(255, 255, 255, 0.8);
+}
+
+.email-form > label{
+    font-size: 1.2vw;
+    margin: 1.5% 0% 0.5%;
+}
+.email-form > p{
+    font-size: 1.2vw;
+    font-weight: 400;
+    margin: 1.5% 0% 0.5%;
+}
+
+.email-form > button{
+    background-color: #fb3e3e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.1vw;
+    font-weight: 500;
+    width: 20%;
+    padding: 1.3%;
+    margin: 2% 0%;
+    border-radius: 10px;
+    transition: all 400ms ease;
+}
