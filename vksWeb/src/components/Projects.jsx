@@ -7,7 +7,7 @@ import project3 from '../assets/project3.png'
 const Projects = () => {
 
     const pro1 =() =>{
-        window.open('https://github.com/vickykumarsinha', '_blank', 'noopener,noreferrer');
+        window.open('https://github.com/vickykumarsinha/vks-portfolio', '_blank', 'noopener,noreferrer');
     }
     const pro2 =() =>{
         window.open('https://github.com/vickykumarsinha/stone-paper-scissors', '_blank', 'noopener,noreferrer');
