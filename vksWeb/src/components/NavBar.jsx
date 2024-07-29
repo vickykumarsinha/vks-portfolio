@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import './NavBar.css'
 import { useRef } from 'react'
-import logo from '../assets/vksg.png'
+import logo from '../assets/VKS2.png'
 import node from '../assets/nodejs.svg'
 import resume from '../assets/resume.pdf'
 import { Link } from 'react-scroll'

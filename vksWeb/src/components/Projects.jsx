@@ -27,7 +27,7 @@ const Projects = () => {
                 Portfolio Website
 
                 <ul>
-                    <li>ReactJS, HTML, CSS</li>
+                    <li>ReactJS, EmailJS, HTML, CSS</li>
                     <li>Responsive Single page Portfolio website using Reactjs.
                     </li>
                 </ul>
