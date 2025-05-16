@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import '../CSS/NavBar.css'
 import logo from '../../assets/vksg.png'
-import resume from '../../assets/VK_Resume.pdf'
+import resume from '../../assets/VKS_Resume.pdf'
 import { Link } from 'react-scroll'
 
 const NavBar = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import '../CSS/Projects.css'
 import project1 from '../../assets/project1.png'
 import project2 from '../../assets/project2.png'
-import project3 from '../../assets/project3.png'
+import project3 from '../../assets/Screenshot_2023-10-01_153028.png'
 
 const Projects = () => {
 
@@ -13,7 +13,7 @@ const Projects = () => {
         window.open('https://github.com/vickykumarsinha/stone-paper-scissors', '_blank', 'noopener,noreferrer');
     }
     const pro3 =() =>{
-        window.open('https://github.com/vickykumarsinha/Youtube-clone', '_blank', 'noopener,noreferrer');
+        window.open('https://github.com/vickykumarsinha/vks-portfolio', '_blank', 'noopener,noreferrer');
     }
   return (
 
@@ -22,6 +22,17 @@ const Projects = () => {
             Projects
         </div>
         <div className='pro-div'>
+            <div className='project'>
+                <img src={project3} className='pro-img' onClick={pro3}/>
+                SynthAI
+
+                <ul>
+                    <li>MERN Stack</li>
+                    <li>Creative tool to build Reasearh papers from Scratch with AI based suggetions.
+                    </li>
+                </ul>
+            </div>
+
             <div className='project'>
                 <img src={project1} className='pro-img' onClick={pro1}/>
                 Portfolio Website
@@ -40,17 +51,6 @@ const Projects = () => {
                 <ul>
                     <li>JavaScript, HTML, CSS</li>
                     <li> Game using concepts of JS and styled using CSS
-                    </li>
-                </ul>
-            </div>
-
-            <div className='project'>
-                <img src={project3} className='pro-img' onClick={pro3}/>
-                Youtube Frontend Clone
-
-                <ul>
-                    <li>JavaScript, HTML, CSS</li>
-                    <li>YouTube clone using HTML and CSS and its different properties.
                     </li>
                 </ul>
             </div>
