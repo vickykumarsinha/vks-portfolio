@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import '../CSS/NavBar.css'
 import logo from '../../assets/vksg.png'
-import resume from '../../assets/resume.pdf'
+import resume from '../../assets/VK_Resume.pdf'
 import { Link } from 'react-scroll'
 
 const NavBar = () => {
@@ -36,7 +36,7 @@ const NavBar = () => {
       </ul>
 
 
-      <a href={resume} download className="resume">Resume</a>
+      <a href={resume} download className="resume">Download Resume</a>
     </section>
   )
 }
