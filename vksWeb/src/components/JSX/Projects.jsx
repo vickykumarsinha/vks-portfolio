@@ -13,7 +13,7 @@ const Projects = () => {
         window.open('https://github.com/vickykumarsinha/stone-paper-scissors', '_blank', 'noopener,noreferrer');
     }
     const pro3 =() =>{
-        window.open('https://github.com/vickykumarsinha/vks-portfolio', '_blank', 'noopener,noreferrer');
+        window.open('https://github.com/vickykumarsinha/synthai', '_blank', 'noopener,noreferrer');
     }
   return (
 

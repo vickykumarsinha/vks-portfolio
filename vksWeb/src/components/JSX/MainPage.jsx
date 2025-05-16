@@ -1,6 +1,6 @@
 import React from 'react'
 import '../CSS/MainPage.css'
-import vks from '../../assets/vks.png'
+import vks from '../../assets/mainphoto.png'
 import linked from '../../assets/linkedin-icon.svg'
 import insta from '../../assets/insta.svg'
 import git from '../../assets/github.svg'

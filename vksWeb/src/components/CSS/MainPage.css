@@ -54,7 +54,7 @@
     width: 70%;
     border-radius: 55%;
     border: solid;
-    border-width: 0.8vw;
+    border-width: 0.5vw;
     border-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(50px)
 }
